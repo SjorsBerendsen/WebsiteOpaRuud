@@ -1,0 +1,139 @@
+:root {
+    --nav-height: 60px;
+}
+
+button#BURGER {
+    display: block;
+    text-align: center;
+    padding: 1.2vh 0.8vw;
+    text-decoration: none;
+    height: 60px;
+    font-size: 16px !important;
+
+    background: none;
+	color: inherit;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    max-width: 22vw;
+    font-family: Helvetica, sans-serif;
+}
+
+/*
+#navMenu, #navMenu > span {
+    transition: all .4s ease-in-out;
+} */
+
+.glass{
+    box-sizing: content-box;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+div#socialswrap {
+    align-items: center;
+    text-align: center;
+}
+
+
+.login:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+ul#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    height: var(--nav-height);
+    width: 100%;
+}
+
+ul.followmeon {
+    float: left;
+    padding-left: 4vw;
+}
+
+iframe#footer {
+    min-width: 99vw;
+    max-width: 99vw;
+    min-height: 30vh;
+}
+
+nav {
+    display: block;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.links {
+    float: left;
+}
+
+.rechts {
+    float: right;
+}
+
+li#nav a#nav {
+    display: block;
+    text-align: center;
+    padding: 2vh 0.8vw;
+    text-decoration: none;
+    height: 60px;
+    font-size: 16px !important;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+h1#socials {
+    font-size: 24px;
+}
+
+footer {
+    margin-top: 10vh;
+    padding-top: 5vh;
+    border-top: 10vh;
+}
+
+.holy-grail-body {
+    display:inline-block;
+    vertical-align:top;
+}
+
+img#article-image {
+    vertical-align:top;
+    max-height: 300px;
+    
+}
+
+div#image {
+    display:inline-block;
+    vertical-align:top; 
+    margin-right:1vw; 
+    margin-left:10vw;
+}
+
+div#article {
+    display:inline-block;
+    width: 60vw;
+    margin-bottom: 5vh;
+}
